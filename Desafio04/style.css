@@ -1,0 +1,38 @@
+*{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.titulo {
+text-align: center;
+font-size: 3rem;
+
+}
+
+
+
+.texto {
+max-width: 900px;
+margin: 50px auto;
+border: 30px;
+padding: 30px;
+font-size: 1.5rem;
+}
+
+
+
+.wpp {
+    position: fixed; 
+    bottom: 30px;
+    right: 30px;
+    
+}
+
+.quadrado-fixed { 
+    width: 35px;
+    height: 35px;
+    border: 10px solid rgb(0, 0, 0);
+    background-color: rgb(173, 44, 44);
+    position: fixed;
+    bottom: 20px;
+    left: 20px;}

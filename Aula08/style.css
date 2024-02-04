@@ -1,0 +1,39 @@
+.quadrado {
+background-color: red;
+border: solid 1px rgb(0, 0, 0);
+height: 900px;
+display: flex;
+flex-direction: row-reverse; 
+align-items: center;
+justify-content: center;
+gap: 30px;
+
+
+}
+
+.item {
+background-color: green;
+border: solid 1px rgb(0, 0, 0);    
+min-width: 100px;
+height: 100px;
+}
+
+
+.item-2 {
+    background-color: rgb(194, 182, 24);
+    border: solid 1px rgb(0, 0, 0);    
+    min-width: 100px;
+    height: 200px;
+    }
+
+
+    /* 
+    flex-row
+    align-items => vertical
+    justify-content => horizontal
+
+    flex-colum
+    align-items => horizontal
+    justify-content => vertical
+
+     */

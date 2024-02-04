@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+
+}
+
+h2,p {
+    margin: 0;
+
+}
+
+p {
+    margin: 5px 0 15px 0;
+}
+
+.card {
+    max-width: 300px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    
+}
+
+
+.quadrado {
+display: flex;
+justify-content: center;
+align-items: center;    
+height: 150px;
+max-width: 100%;
+background-color: grey;
+border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+    color: antiquewhite;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+    padding: 10px;
+}

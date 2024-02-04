@@ -1,0 +1,52 @@
+/* 
+* => asterisco
+seletor "universal"
+aplica o estilo para todos os elementos
+*/
+
+/* 
+raiz ou root
+:root
+
+*/
+
+:root {
+    font-size: 18px;
+}  
+
+
+*{
+    font-family: 'Dancing Script', cursive;
+}
+
+.titulo {
+font-weight: 600;
+font-size: 3rem;
+text-align: center;
+text-decoration: underline;
+
+}
+
+/* 
+Tamanho da fonte
+
+1rem = 16px
+0.5rem = 8px
+0.1rem = 1.6px
+*/
+
+/* 
+rem => root = raiz
+em => elemento pai
+*/
+
+
+.texto {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-align: left;
+    display: block;
+    text-indent: 30px;
+}

@@ -1,0 +1,52 @@
+.linha{
+background-color: red;
+border: solid 1px yellow;
+height: 100px;
+margin: 10px 0;
+}
+
+.primeira{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.segunda{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.terceira{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quarta{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quinta{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.sexta{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+
+.quadrado1 {
+background-color: yellow;
+border: solid 1px black;
+min-width: 100px;
+}
+

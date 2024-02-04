@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+
+   <!-- "action" para onde as informações vão -->
+
+    <form>
+        <input type="text" placeholder="Digite seu Nome" maxlength="5" minlength="3">
+        <br>
+        <input type="email" placeholder="Digite seu E-mail">
+        <br>
+        <input type="number" placeholder="Digite seu número" min="2">
+        <br>
+        <input type="tel" placeholder="Digite seu Telefone">
+        <br>    
+        <input type="password" name="senha" placeholder="Digite sua Senha">
+        <br>
+        <input type="color">
+        <br>
+
+        <div>
+            <h2>Checkbox</h2>
+
+            <input type="checkbox" id="atualizacao" disabled>
+            <label for="atualizacao">Quer receber atualizações do nosso site</label>
+            <br>
+            <input type="checkbox" id="email">
+            <label for="email">Quer receber E-mail</label>
+        </div>
+
+        <div>
+            <h2>Radio Button</h2>
+            <input type="radio" name="cor" id="azul" disabled>
+            <label for="azul">Azul</label>
+            <br>
+            <input type="radio" name="cor" id="Amarelo" checked>
+            <label for="Amarelo">Amarelo</label>
+            <br>
+            <input type="radio" name="cor" id="Verde">
+            <label for="Verde">Verde</label>
+
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+
+    
+    </form> 
+
+    <form>
+        <select name="" id="">
+        <option value="">Escolha um veículo</option>
+            <option value="carro">carro</option>
+            <option value="moto">moto</option>
+            <option value="barco">barco</option>
+            <option value="bike">bike</option>
+        </select>
+
+        <br>
+        <br>
+
+        <textarea  name="" id="" cols="30" rows="10" placeholder="Deixe seu comentário...">
+
+        </textarea>
+
+    </form>
+
+    <div style="margin-bottom: 500px;"></div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+table {
+    width:300px;
+    text-align: center;
+   
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+
+thead tr {
+    background-color: red;
+   
+}
+
+thead tr th:first-child {
+    border-radius: 5px 0 0 0;
+}
+
+thead tr th:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(187,187,187);
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+
+th, td {
+    padding: 5px;
+}
